@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PadiPaar</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="mark">P</span><b>PadiPaar</b></div>
+    <div class="lang">
+      <button id="lang-ta" class="active">தமிழ்</button><button id="lang-en">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <button id="scan" class="primary">Scan this page</button>
+    <div id="status" role="status" aria-live="polite"></div>
+    <div id="result" hidden></div>
+  </main>
+
+  <details class="settings">
+    <summary>Settings</summary>
+    <label for="api-url">PadiPaar server address</label>
+    <input id="api-url" type="url" placeholder="https://your-app.onrender.com">
+    <button id="save-api">Save</button>
+    <p class="hint">Use http://127.0.0.1:5000 when running locally.</p>
+  </details>
+
+  <p class="foot" id="foot"></p>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PadiPaar - Read What You Sign</title>
+  <meta name="description" content="Finds risky clauses and dark patterns in terms and agreements and explains them in simple Tamil.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%9C%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <div>
+          <div class="brand-name">PadiPaar</div>
+          <div class="brand-sub" data-i18n="brandSub"></div>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Main">
+        <button class="nav-btn active" data-view="analyse" data-i18n="navAnalyse"></button>
+        <button class="nav-btn" data-view="compare" data-i18n="navCompare"></button>
+        <button class="nav-btn" data-view="about" data-i18n="navAbout"></button>
+      </nav>
+      <div class="lang" role="group" aria-label="Language">
+        <button id="lang-ta" class="lang-btn active">தமிழ்</button>
+        <button id="lang-en" class="lang-btn">English</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- ANALYSE -->
+    <section id="view-analyse" class="view">
+      <div class="hero">
+        <h1 data-i18n="heroTitle"></h1>
+        <p data-i18n="heroSub"></p>
+      </div>
+
+      <div class="card">
+        <div class="tabs" role="tablist">
+          <button class="tab active" data-mode="text" role="tab" data-i18n="tabText"></button>
+          <button class="tab" data-mode="url" role="tab" data-i18n="tabUrl"></button>
+          <button class="tab" data-mode="pdf" role="tab" data-i18n="tabPdf"></button>
+        </div>
+
+        <div id="mode-text" class="mode">
+          <label class="sr-only" for="text-input">Terms text</label>
+          <textarea id="text-input" rows="9" maxlength="200000" data-i18n-ph="phText"></textarea>
+        </div>
+        <div id="mode-url" class="mode hidden">
+          <label class="sr-only" for="url-input">Web address</label>
+          <input id="url-input" type="url" inputmode="url" autocomplete="off" placeholder="https://example.com/terms">
+          <p class="hint" data-i18n="hintUrl"></p>
+        </div>
+        <div id="mode-pdf" class="mode hidden">
+          <label class="file-drop" for="pdf-input">
+            <span id="pdf-name" data-i18n="phPdf"></span>
+          </label>
+          <input id="pdf-input" type="file" accept="application/pdf,.pdf" class="sr-only">
+        </div>
+
+        <div class="actions">
+          <button id="analyse-btn" class="btn primary" data-i18n="btnAnalyse"></button>
+          <button id="clear-btn" class="btn ghost" data-i18n="btnClear"></button>
+          <span class="spacer"></span>
+          <span class="muted" data-i18n="trySample"></span>
+          <span id="sample-buttons" class="sample-buttons"></span>
+        </div>
+        <div id="status" class="status" role="status" aria-live="polite"></div>
+      </div>
+
+      <div id="result" class="hidden"></div>
+    </section>
+
+    <!-- COMPARE -->
+    <section id="view-compare" class="view hidden">
+      <div class="card">
+        <h2 data-i18n="compareTitle"></h2>
+        <p class="muted" data-i18n="compareNote"></p>
+        <div class="filter-row">
+          <label for="cat-filter" data-i18n="filterLabel"></label>
+          <select id="cat-filter"></select>
+        </div>
+        <div class="table-scroll">
+          <table class="scores">
+            <thead><tr>
+              <th data-i18n="thApp"></th><th data-i18n="thCategory"></th><th data-i18n="thScore"></th>
+              <th data-i18n="thTop"></th><th data-i18n="thDate"></th>
+            </tr></thead>
+            <tbody id="scores-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="view-about" class="view hidden">
+      <div class="card">
+        <h2 data-i18n="aboutTitle"></h2>
+        <ol class="steps" id="about-steps"></ol>
+      </div>
+      <div class="card">
+        <h2 data-i18n="privacyTitle"></h2>
+        <p data-i18n="privacyText"></p>
+        <p class="muted" id="disclaimer-line"></p>
+      </div>
+      <div class="card">
+        <h2 data-i18n="modelTitle"></h2>
+        <div id="model-info" class="muted">...</div>
+      </div>
+      <div class="card">
+        <h2 data-i18n="extTitle"></h2>
+        <p data-i18n="extText"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap" data-i18n="footer"></div>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

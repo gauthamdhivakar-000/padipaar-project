@@ -1,0 +1,110 @@
+{
+  "categories": {
+    "auto_renewal": {
+      "title_en": "Auto-renewal",
+      "title_ta": "தானாகப் புதுப்பிப்பு",
+      "meaning_en": "Your subscription renews and charges you automatically until you cancel.",
+      "meaning_ta": "நீங்கள் ரத்து செய்யும் வரை சந்தா தானாகவே புதுப்பிக்கப்பட்டு, உங்கள் கணக்கிலிருந்து பணம் எடுக்கப்படும்.",
+      "tip_en": "Set a reminder before the renewal date and check how to cancel.",
+      "tip_ta": "புதுப்பிக்கும் தேதிக்கு முன் நினைவூட்டல் வைத்து, ரத்து செய்யும் வழியைப் பாருங்கள்."
+    },
+    "hidden_fees": {
+      "title_en": "Extra or changing fees",
+      "title_ta": "கூடுதல் / மாறும் கட்டணங்கள்",
+      "meaning_en": "Extra charges or price changes may apply that are not clearly shown upfront.",
+      "meaning_ta": "முன்கூட்டியே தெளிவாகக் காட்டப்படாத கூடுதல் கட்டணங்கள் அல்லது விலை மாற்றங்கள் இருக்கலாம்.",
+      "tip_en": "Check the final total and all extra charges before you pay.",
+      "tip_ta": "பணம் செலுத்துவதற்கு முன் மொத்தத் தொகையையும் கூடுதல் கட்டணங்களையும் சரிபாருங்கள்."
+    },
+    "data_sharing": {
+      "title_en": "Your data is shared",
+      "title_ta": "உங்கள் தகவல் பகிரப்படும்",
+      "meaning_en": "Your personal information may be shared with partners, affiliates or advertisers.",
+      "meaning_ta": "உங்கள் தனிப்பட்ட தகவல்கள் கூட்டாளர் நிறுவனங்கள், மூன்றாம் தரப்பினர் அல்லது விளம்பரதாரர்களுடன் பகிரப்படலாம்.",
+      "tip_en": "Look for an opt-out option and share only what is really needed.",
+      "tip_ta": "பகிர்வை நிறுத்தும் (opt-out) வசதி உள்ளதா என்று பாருங்கள்; தேவையான தகவலை மட்டும் கொடுங்கள்."
+    },
+    "permissions_collection": {
+      "title_en": "Too many permissions / data collection",
+      "title_ta": "அதிக அனுமதிகள் / தகவல் சேகரிப்பு",
+      "meaning_en": "The app wants access to or collects things like contacts, location or messages.",
+      "meaning_ta": "தொடர்புகள், இருப்பிடம், செய்திகள் போன்றவற்றை அணுக அல்லது சேகரிக்க இந்த ஆப் அனுமதி கேட்கிறது.",
+      "tip_en": "Deny permissions the service does not truly need.",
+      "tip_ta": "சேவைக்குத் தேவையில்லாத அனுமதிகளை மறுத்துவிடுங்கள்."
+    },
+    "liability_limit": {
+      "title_en": "Company refuses responsibility",
+      "title_ta": "நிறுவனம் பொறுப்பேற்காது",
+      "meaning_en": "Even if you suffer loss or harm, the company says it is not responsible.",
+      "meaning_ta": "உங்களுக்கு இழப்பு அல்லது பாதிப்பு ஏற்பட்டாலும் நிறுவனம் பொறுப்பேற்காது என்று இந்த விதி கூறுகிறது.",
+      "tip_en": "If money or important data is involved, read this clause twice.",
+      "tip_ta": "பணம் அல்லது முக்கியமான தகவல்கள் சம்பந்தப்பட்டிருந்தால் இந்த விதியை இரண்டு முறை படியுங்கள்."
+    },
+    "arbitration_waiver": {
+      "title_en": "Giving up court rights",
+      "title_ta": "நீதிமன்ற உரிமையை விட்டுக்கொடுத்தல்",
+      "meaning_en": "Disputes must go to private arbitration, and you may lose the right to sue or join a class action.",
+      "meaning_ta": "பிரச்சினை வந்தால் நீதிமன்றத்துக்குப் பதிலாகத் தனி நடுவர் மன்றத்தில்தான் தீர்க்க வேண்டும்; குழு வழக்கு தொடரும் உரிமையும் போகலாம்.",
+      "tip_en": "Notice which legal rights you are giving up; ask someone you trust if unsure.",
+      "tip_ta": "எந்தச் சட்ட உரிமைகளை விட்டுக்கொடுக்கிறீர்கள் என்று கவனியுங்கள்; சந்தேகம் இருந்தால் நம்பகமான ஒருவரிடம் கேளுங்கள்."
+    },
+    "unilateral_change": {
+      "title_en": "Company can change terms or close your account",
+      "title_ta": "நிறுவனம் தன்னிச்சையாக மாற்றலாம்",
+      "meaning_en": "The company can change the terms or end your account without asking you.",
+      "meaning_ta": "நிறுவனம் உங்களிடம் கேட்காமலே விதிமுறைகளை மாற்றலாம் அல்லது உங்கள் கணக்கை நிறுத்தலாம்.",
+      "tip_en": "Check whether you are notified of changes, and re-read the terms now and then.",
+      "tip_ta": "மாற்றங்கள் பற்றித் தகவல் வருகிறதா என்று பாருங்கள்; அவ்வப்போது விதிமுறைகளை மீண்டும் படியுங்கள்."
+    },
+    "penalty_cancellation": {
+      "title_en": "Penalty or no refund",
+      "title_ta": "அபராதம் / பணம் திரும்பக் கிடைக்காது",
+      "meaning_en": "Cancelling may cost you a fee or penalty, and money paid may not come back.",
+      "meaning_ta": "ரத்து செய்தால் கட்டணம் அல்லது அபராதம் விதிக்கப்படலாம்; கட்டிய பணம் திரும்பக் கிடைக்காமல் போகலாம்.",
+      "tip_en": "Read the cancellation and refund rules before you pay.",
+      "tip_ta": "பணம் கட்டுவதற்கு முன் ரத்து மற்றும் பணம் திரும்பப் பெறும் விதிகளைப் படியுங்கள்."
+    }
+  },
+  "ui_patterns": {
+    "pre_ticked_consent": {
+      "title_en": "Pre-ticked consent box",
+      "title_ta": "முன்கூட்டியே டிக் செய்யப்பட்ட சம்மதப் பெட்டி",
+      "meaning_en": "A box agreeing to marketing or data sharing is already ticked for you.",
+      "meaning_ta": "விளம்பரம் அல்லது தகவல் பகிர்வுக்கான சம்மதப் பெட்டி, நீங்கள் தேர்வு செய்யாமலே டிக் செய்யப்பட்டுள்ளது.",
+      "tip_en": "Untick it if you do not want it.",
+      "tip_ta": "தேவையில்லை என்றால் அந்தப் பெட்டியின் டிக்கை நீக்குங்கள்."
+    },
+    "urgency_pressure": {
+      "title_en": "Urgency / pressure tactic",
+      "title_ta": "அவசர அழுத்தம்",
+      "meaning_en": "Words like 'only 2 left' or 'offer ends soon' try to rush your decision.",
+      "meaning_ta": "'இன்னும் சிலவே உள்ளன', 'சலுகை முடியப்போகிறது' போன்ற வார்த்தைகள் உங்களை அவசரமாக முடிவெடுக்க வைக்க முயல்கின்றன.",
+      "tip_en": "Take a moment and decide without hurry.",
+      "tip_ta": "அவசரப்படாமல் சிறிது நேரம் எடுத்துச் சிந்தியுங்கள்."
+    },
+    "hidden_decline": {
+      "title_en": "Hard-to-see 'No thanks' button",
+      "title_ta": "கண்ணில் படாத 'வேண்டாம்' பொத்தான்",
+      "meaning_en": "The 'accept' button is big while the 'decline' option is small and easy to miss.",
+      "meaning_ta": "'ஏற்றுக்கொள்' பொத்தான் பெரியதாகவும், 'வேண்டாம்' என்ற விருப்பம் சிறியதாகவும் எளிதில் தவறவிடும்படியும் உள்ளது.",
+      "tip_en": "Look carefully for the 'No thanks' or 'Skip' option.",
+      "tip_ta": "'வேண்டாம்' அல்லது 'தவிர்' என்ற விருப்பத்தைக் கவனமாகத் தேடுங்கள்."
+    }
+  },
+  "bands": {
+    "Low": {
+      "summary_en": "Low risk: few or no major warning signs were found. Still, skim the key terms once.",
+      "summary_ta": "குறைந்த ஆபத்து: பெரிய எச்சரிக்கைகள் குறைவு அல்லது இல்லை. இருந்தாலும் முக்கிய விதிகளை ஒருமுறை பாருங்கள்."
+    },
+    "Medium": {
+      "summary_en": "Medium risk: some terms need your attention. Read the warnings below before you agree.",
+      "summary_ta": "நடுத்தர ஆபத்து: சில விதிகளில் கவனம் தேவை. கீழே உள்ள எச்சரிக்கைகளைப் படித்த பிறகு ஒப்புக்கொள்ளுங்கள்."
+    },
+    "High": {
+      "summary_en": "High risk: several terms could affect your money, data or rights. Read carefully before you agree.",
+      "summary_ta": "அதிக ஆபத்து: உங்கள் பணம், தகவல் அல்லது உரிமைகளைப் பாதிக்கக்கூடிய பல விதிகள் உள்ளன. ஒப்புக்கொள்வதற்கு முன் கவனமாகப் படியுங்கள்."
+    }
+  },
+  "disclaimer_en": "PadiPaar highlights possible risks using automated analysis. It is not legal advice.",
+  "disclaimer_ta": "PadiPaar தானியங்கிப் பகுப்பாய்வின் மூலம் சாத்தியமான ஆபத்துகளைச் சுட்டிக்காட்டுகிறது. இது சட்ட ஆலோசனை அல்ல."
+}
